@@ -12,7 +12,7 @@
                 git credentialsId: 'git-cred', url: 'https://github.com/jaiswaladi2468/maven-tomcat-sample.git'
             }
         }
-        
+         
         stage('Compile') {
             steps {
             sh  "mvn compile"
