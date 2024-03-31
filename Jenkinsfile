@@ -7,11 +7,7 @@
     }
 
     stages {
-        stage('Git Checkout') {
-            steps {
-                git credentialsId: 'git-cred', url: 'https://github.com/jaiswaladi2468/maven-tomcat-sample.git'
-            }
-        }
+        
          
         stage('Compile') {
             steps {
